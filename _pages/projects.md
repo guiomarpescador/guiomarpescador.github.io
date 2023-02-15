@@ -14,10 +14,18 @@ As part of the CDT, I will pursue 2 mini-projects during the first year of the p
 Mini Project 1
 ===
 
-TBD. 
+Dimensionality Reduction with Side Information. 
+
+*Keywords*: 
 
 Mini Project 2
 ===
 
-TBD.
+Bayesian Model Selection & Continual Learning in Deep Neural Networks.
 
+*Keywords*: 
+
+
+
+Phd Project
+===
