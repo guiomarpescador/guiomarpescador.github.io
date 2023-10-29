@@ -23,9 +23,6 @@ Work Experience
 * Addlink
 * ICMAT
 
-
-
-
 Undergraduate Projects
 ======
 * Statistical Evaluation of Medical Tests
