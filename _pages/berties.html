@@ -5,21 +5,24 @@ author_profile: true
 
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Practice</title>
+</head>
 <body>
   <h1>What would you like to practice?</h1>
-  <form>
+  <div>
     <button type="button" onclick="redirectToMeet('french')">French</button>
     <button type="button" onclick="redirectToMeet('spanish')">Spanish</button>
     <button type="button" onclick="redirectToMeet('both')">Both</button>
-  </form>
+  </div>
 
   <script>
     function redirectToMeet(language) {
       let meetUrl;
 
-      // Replace with your actual Google Meet link
-      meetUrl = "https://meet.google.com/jfm-mkzf-tja"; 
-
+      meetUrl = "https://meet.google.com/jfm-mkzf-tja"
       window.open(meetUrl, "_blank");
     }
   </script>
