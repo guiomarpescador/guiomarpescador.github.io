@@ -7,11 +7,11 @@ author_profile: true
 <html lang="en">
 <body>
   <h1>What would you like to practice?</h1>
-  <form>
+  <div>
     <button type="button" onclick="playVideo('french')">French</button>
     <button type="button" onclick="playVideo('spanish')">Spanish</button>
     <button type="button" onclick="playVideo('both')">Both</button>
-  </form>
+  </div>
 
   <video id="videoPlayer" width="640" height="480" controls hidden></video>
 
@@ -21,11 +21,11 @@ author_profile: true
       let videoSource;
 
       if (language === "french") {
-        videoSource = "images/french_video.mov"; // Replace with your french video filename
+        videoSource = "videos/french_video.mov"; // Replace with your French video filename
       } else if (language === "spanish") {
-        videoSource = "images/spanish_video.mov"; // Replace with your spanish video filename
+        videoSource = "videos/spanish_video.mov"; // Replace with your Spanish video filename
       } else if (language === "both") {
-        videoSource = "images/both_video.mov"; // Replace with your both languages video filename
+        videoSource = "videos/both_video.mov"; // Replace with your both languages video filename
       }
 
       videoPlayer.setAttribute('src', videoSource);
