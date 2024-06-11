@@ -7,33 +7,21 @@ author_profile: true
 <html lang="en">
 <body>
   <h1>What would you like to practice?</h1>
-  <div>
-    <button type="button" onclick="playVideo('french')">French</button>
-    <button type="button" onclick="playVideo('spanish')">Spanish</button>
-    <button type="button" onclick="playVideo('both')">Both</button>
-  </div>
-
-  <video id="videoPlayer" width="640" height="480" controls hidden></video>
+  <form>
+    <button type="button" onclick="redirectToMeet('french')">French</button>
+    <button type="button" onclick="redirectToMeet('spanish')">Spanish</button>
+    <button type="button" onclick="redirectToMeet('both')">Both</button>
+  </form>
 
   <script>
-    function playVideo(language) {
-      const videoPlayer = document.getElementById('videoPlayer');
-      let videoSource;
+    function redirectToMeet(language) {
+      let meetUrl;
 
-      if (language === "french") {
-        videoSource = "videos/french_video.mov"; // Replace with your French video filename
-      } else if (language === "spanish") {
-        videoSource = "videos/french_video.mov"; // Replace with your Spanish video filename
-      } else if (language === "both") {
-        videoSource = "videos/french_video.mov"; // Replace with your both languages video filename
-      }
+      // Replace with your actual Google Meet link
+      meetUrl = "https://meet.google.com/jfm-mkzf-tja"; 
 
-      videoPlayer.setAttribute('src', videoSource);
-      videoPlayer.hidden = false;
-      videoPlayer.load();
-      videoPlayer.play();
+      window.location.href = meetUrl;
     }
   </script>
 </body>
 </html>
-
