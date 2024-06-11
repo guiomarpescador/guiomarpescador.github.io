@@ -1,0 +1,42 @@
+---
+title: "CF Languages"
+permalink: /bertiehighmore/
+author_profile: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CF Languanges</title>
+</head>
+<body>
+  <h1>What would you like to practice?</h1>
+  <form>
+    <label for="language">Choose a language:</label>
+    <select id="language" name="language" onchange="redirect()">
+      <option value="french">French</option>
+      <option value="spanish">Spanish</option>
+      <option value="both">Both</option>
+    </select>
+  </form>
+
+  <script>
+    function redirect() {
+      const selectedLanguage = document.getElementById("language").value;
+      let redirectUrl;
+
+      if (selectedLanguage === "french") {
+        redirectUrl = "https://www.youtube.com/watch?v=fflhkR8OnWA"; // Replace this with the actual URL of your French video
+      } else if (selectedLanguage === "spanish") {
+        redirectUrl = "https://m.youtube.com/watch?v=lO9X-7beRa8"; // Replace this with the actual URL of your Spanish video
+      } else if (selectedLanguage === "both") {
+        redirectUrl = "https://www.youtube.com/watch?v=vgEIY0wZ23Q"; // Replace this with the actual URL of your video with both languages
+      }
+
+      window.location.href = redirectUrl;
+    }
+  </script>
+</body>
+</html>
