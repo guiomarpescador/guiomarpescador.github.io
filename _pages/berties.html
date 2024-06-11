@@ -1,5 +1,4 @@
 ---
-title: "CF Languages"
 permalink: /bertiehighmore/
 author_profile: true
 ---
@@ -9,25 +8,32 @@ author_profile: true
 <body>
   <h1>What would you like to practice?</h1>
   <form>
-    <button type="button" onclick="redirect('french')">French</button>
-    <button type="button" onclick="redirect('spanish')">Spanish</button>
-    <button type="button" onclick="redirect('both')">Both</button>
+    <button type="button" onclick="playVideo('french')">French</button>
+    <button type="button" onclick="playVideo('spanish')">Spanish</button>
+    <button type="button" onclick="playVideo('both')">Both</button>
   </form>
 
+  <video id="videoPlayer" width="640" height="480" controls hidden></video>
+
   <script>
-    function redirect(language) {
-      let redirectUrl;
+    function playVideo(language) {
+      const videoPlayer = document.getElementById('videoPlayer');
+      let videoSource;
 
       if (language === "french") {
-        redirectUrl = "https://www.youtube.com/watch?v=fflhkR8OnWA"; // Replace this with the actual URL of your French video
+        videoSource = "images/french_video.mov"; // Replace with your french video filename
       } else if (language === "spanish") {
-        redirectUrl = "https://m.youtube.com/watch?v=lO9X-7beRa8"; // Replace this with the actual URL of your Spanish video
+        videoSource = "images/spanish_video.mov"; // Replace with your spanish video filename
       } else if (language === "both") {
-        redirectUrl = "https://www.youtube.com/watch?v=vgEIY0wZ23Q"; // Replace this with the actual URL of your video with both languages
+        videoSource = "images/both_video.mov"; // Replace with your both languages video filename
       }
 
-      window.location.href = redirectUrl;
+      videoPlayer.setAttribute('src', videoSource);
+      videoPlayer.hidden = false;
+      videoPlayer.load();
+      videoPlayer.play();
     }
   </script>
 </body>
 </html>
+
