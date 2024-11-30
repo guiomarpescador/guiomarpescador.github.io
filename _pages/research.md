@@ -2,9 +2,6 @@
 title: "Research"
 permalink: /research/
 author_profile: true
-redirect_from: 
-  - /research/
-  - /research.html
 ---
 
 ## Adjusting Model Size in Continual Gaussian Processes: How big is big enough?
