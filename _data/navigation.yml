@@ -1,5 +1,7 @@
 #main links links
-#  main:
+ main:
+ - title: "Research"
+   url: /research/
 #   - title: "CF Languages"
 #     url: /bertiehighmore/
   
@@ -9,6 +11,4 @@
 #   - title: "Projects"
 #     url: /projects/
 
- - title: "Research"
-   url: /research/
 
