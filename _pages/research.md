@@ -15,7 +15,7 @@ author_profile: true
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://arxiv.org/pdf/2408.07588" class="btn" style="text-decoration: none; padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; font-weight: bold;">
+  <a href="https://openreview.net/pdf?id=mjjyNwfmQe" class="btn" style="text-decoration: none; padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; font-weight: bold;">
     Read the Paper
   </a>
 </div>
