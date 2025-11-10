@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am a final year PhD candidate in [Statistics and Machine Learning](https://statml.io) at Imperial College London and the University of Oxford, where I am fortunate to be advised by [Sarah Filippi](https://sarahfilippi.github.io/) and [Mark van der Wilk](https://mvdw.uk/). 
+Hello! I am a final year PhD candidate in **[Statistics and Machine Learning](https://statml.io)** at Imperial College London and the University of Oxford, where I am fortunate to be advised by **[Sarah Filippi](https://sarahfilippi.github.io/)** and **[Mark van der Wilk](https://mvdw.uk/)**. 
 
 Before starting my PhD, I completed a MMath Mathematics at the University of Edinburgh (2017-2022).
 
