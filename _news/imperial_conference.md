@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'll be presenting at [**Breaking Topics in AI Conference 2025**](https://www.imperial.ac.uk/events/197145/breaking-topics-in-ai-conference-2025/) in London. 
+I'll be presenting at [Breaking Topics in AI Conference 2025](https://www.imperial.ac.uk/events/197145/breaking-topics-in-ai-conference-2025/) in London. 
