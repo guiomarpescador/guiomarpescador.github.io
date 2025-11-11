@@ -15,9 +15,9 @@
       institution: Imperial College London and University of Oxford, UK
       year: 2022-Exp. 2026
       description:
-        - Under the supervision of Prof. Sarah Filippi (Imperial College London) and Dr. Mark van der Wilk (University of Oxford).
+        - Under the supervision of <a href="https://sarahfilippi.github.io/">Sarah Filippi</a> and <a href="https://mvdw.uk/">Mark van der Wilk</a>.
         - Variational learning, Probabilistic models, Adaptive model capacity, Continual learning, Efficient training.
-        - Fully funded within the EPSRC Center for Doctoral Training in Statistics and Machine Learning (<a href="https://statml.io/">StatML CDT</a>).
+        - Fully funded within the EPSRC Center for Doctoral Training <a href="https://statml.io/">StatML CDT</a>.
         - title: Papers
           contents:
             - 1 Spotlight paper at ICML 2025
@@ -26,13 +26,13 @@
       institution: University of Edinburgh, UK
       year: 2017-2022
       description:
-        - 'Master Dissertation: "Statistical Evaluation of Medical Tests" (supervised by Vanda Inacio De Carvalho).'
-        - 'Undergraduate Group Thesis: "Adaptive Single Hidden Layers Perceptron" (supervised by Benedict Leimkuhler).'
+        - 'Master Dissertation: "Statistical Evaluation of Medical Tests" supervised by Vanda Inacio De Carvalho.'
+        - 'Undergraduate Group Thesis: "Adaptive Single Hidden Layers Perceptron" supervised by Benedict Leimkuhler.'
     - title: Academic Placement
       institution: RIKEN Center for Advanced Intelligence Project, Tokyo, Japan
       year: April-July 2025
       description:
-        - Visiting student researcher in the Adaptive Bayesian Intelligence Team led by Dr. Emtiyaz Khan.
+        - Visiting student researcher in the <a href="https://adaptive-bayesian.ai/">Adaptive Bayesian Intelligence</a> Team led by Dr. Emtiyaz Khan.
 
 - title: Experience
   type: time_table
@@ -46,7 +46,7 @@
       institution: Amazon, Madrid, Spain
       year: 2020-2021
       description:
-        - Developed and deployed internal web application features for Amazon Business.
+        - Developed and deployed internal web application for Amazon Business.
         - Designed a new buying policy now used worldwide.
         - Received two full-time job offers for performance.
     - title: Intern
@@ -87,8 +87,8 @@
     #     - "Bayes-Duality Workshop, Tokyo, Japan (June 2025)."
     - year: 2024
       description:
-        - "NeurIPS 2024 Bayesian Decision-Making and Uncertainty Workshop."
-        - "Oxford-Man Institute, F-StatML Seminar Series."
+        - "NeurIPS 2024 Bayesian Decision-Making and Uncertainty Workshop, Vancouver, Canada."
+        - "F-StatML Seminar Series, Oxford-Man Institute, Oxford, UK."
 
 - title: Closed Workshops and Seminars
   type: time_table
@@ -98,7 +98,8 @@
         - "Bayes-Duality Workshop, Tokyo, Japan"
     - year: 2024
       description:
-        - "Dagstuhl Seminar: \"Rethinking the Role of Bayesianism in the Age of Modern AI\"."
+        - "Dagstuhl Seminar: \"Rethinking the Role of Bayesianism in the Age of Modern AI\", Wadern, Germany."
+        - "Amazon StatML Workshop, Berlin, Germany."
 
 - title: Leadership and Outreach
   type: time_table
