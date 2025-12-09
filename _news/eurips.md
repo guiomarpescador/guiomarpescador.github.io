@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending **[EurIPS 2025](https://eurips.cc/)** in Copenhagen! 🇩🇰 See you there!
+Attending **[EurIPS 2025](https://eurips.cc/)** in Copenhagen 🇩🇰

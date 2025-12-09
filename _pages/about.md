@@ -28,4 +28,4 @@ Hello! I am a final year PhD candidate in **[Statistics and Machine Learning](ht
 
 Before starting my PhD, I completed a MMath Mathematics at the University of Edinburgh (2017-2022).
 
-<!-- My research focuses on developing adaptive Bayesian methods that enable probabilistic models to learn efficiently and continuously from evolving data. I am particularly interested in how model capacity can be adjusted dynamically during training, allowing models to balance complexity and generalisation as new information arrives. More broadly, I view learning as a continual process, much like human learning, where experience refines understanding over time. This perspective motivates my work on scalable variational inference and optimisation methods that make continual and non-stationary learning feasible in real-world settings. -->
+I am interested in developing variational methods that support continual and adaptive learning. One line of my work focuses on methods that automatically adjust the model's size as learning progresses, reducing computational cost while maintaining accuracy. Recently, I have been working on optimisation methods.
