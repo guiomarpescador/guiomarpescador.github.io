@@ -38,8 +38,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-presenting-at-breaking-topics-in-ai-conference-2025-in-london",
           title: 'I’ll be presenting at Breaking Topics in AI Conference 2025 in London.',
           description: "",
-          section: "News",},{id: "news-attending-eurips-2025-in-copenhagen-see-you-there",
-          title: 'Attending EurIPS 2025 in Copenhagen! 🇩🇰 See you there!',
+          section: "News",},{id: "news-attending-eurips-2025-in-copenhagen",
+          title: 'Attending EurIPS 2025 in Copenhagen 🇩🇰',
           description: "",
           section: "News",},{
         id: 'social-email',
