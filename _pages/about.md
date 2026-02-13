@@ -28,4 +28,4 @@ Hello! I am a final year PhD candidate in **[Statistics and Machine Learning](ht
 
 Before starting my PhD, I completed a MMath Mathematics at the University of Edinburgh (2017-2022).
 
-I am interested in developing variational methods that support continual and adaptive learning. One line of my work focuses on methods that automatically adjust the model's size as learning progresses, reducing computational cost while maintaining accuracy. Recently, I have been working on optimisation methods.
+I am interested in developing variational methods that support continual and adaptive learning. One line of my work focuses on methods that automatically adjust the model's size as learning progresses, reducing computational cost while maintaining accuracy. Recently, I have been working on optimisation methods, with a focus on scaling and acceleration via memory.
