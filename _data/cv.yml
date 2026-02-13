@@ -82,9 +82,12 @@
 - title: Invited Talks
   type: time_table
   contents:
-    # - year: 2025
-    #   description:
-    #     - "Bayes-Duality Workshop, Tokyo, Japan (June 2025)."
+    - year: 2026
+      description:
+        - "Invited speaker in the session \"Calibrated Bayes: approximate inference, misspecified models, and their interaction\", ISBA World Meeting."
+    - year: 2025
+      description:
+        - "Breaking Topics in AI Conference 2025, London, UK."
     - year: 2024
       description:
         - "NeurIPS 2024 Bayesian Decision-Making and Uncertainty Workshop, Vancouver, Canada."
