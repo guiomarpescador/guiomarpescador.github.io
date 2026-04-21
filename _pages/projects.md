@@ -4,6 +4,7 @@ title: Research
 permalink: /research/
 author_profile: true
 nav: true
+nav_order: 3
 ---
 
 <!-- markdownlint-disable MD033 -->
