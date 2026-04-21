@@ -9,10 +9,16 @@ layout: default
 {% endif %}
 
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
+  {% if page.show_page_title != false or page.description %}
+    <header class="post-header">
+      {% if page.show_page_title != false %}
+        <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %}
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
+  {% endif %}
 
   <article>
     {{ content }}

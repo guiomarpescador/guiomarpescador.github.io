@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /research/
+title: research
 author_profile: true
 nav: true
 nav_order: 3
+show_page_title: false
 ---
 
 <!-- markdownlint-disable MD033 -->
