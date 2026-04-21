@@ -1,65 +1,33 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+title: research
+permalink: /research/
+author_profile: true
+nav: true
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+<!-- markdownlint-disable MD033 -->
+<div style="text-align: center; margin-top: 20px;">
+  <h2>
+    Adjusting Model Size in Continual Gaussian Processes:<br>
+    How Big is Big Enough?
+  </h2>
 </div>
+
+<div style="text-align: center; margin-top: 20px; font-size: 1.1em;">
+  We propose a method to dynamically adjust the model size of a Gaussian Process during training in a continual learning setting.
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://arxiv.org/pdf/2408.07588" class="btn" style="text-decoration: none; padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; font-weight: bold;">
+    Read the Paper
+  </a>
+</div>
+
+<div style="text-align: center; margin-top: 30px;">
+  <img src="{{ '/assets/img/animated_batches.gif' | relative_url }}" alt="Dynamic Model Size" style="max-width: 80%; border: 1px solid #ddd; border-radius: 10px; padding: 10px;">
+  <p style="margin-top: 10px; font-size: 0.9em; color: #555;">
+    Figure: Three continual learning scenarios. The model size is adjusted during training to match the capacity requirements of each task.
+  </p>
+</div>
+<!-- markdownlint-enable MD033 -->
