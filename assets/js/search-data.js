@@ -63,8 +63,8 @@ ninja.data = [{
           section: "News",},{id: "news-invited-speaker-at-symposium-on-probabilistic-machine-learning-probml-2026-co-located-with-icml-2026-in-south-korea-on-july-5-2026-previously-symposium-on-advances-in-approximate-bayesian-inference",
           title: 'Invited speaker at Symposium on Probabilistic Machine Learning (ProbML) 2026, co-located with ICML...',
           description: "",
-          section: "News",},{id: "news-super-excited-to-be-joining-jpmorgan-ai-research-as-an-intern-in-the-summer-of-2026-i-ll-be-working-with-optimization-amp-amp-decision-making",
-          title: 'Super excited to be joining JPMorgan AI Research as an intern in the...',
+          section: "News",},{id: "news-super-excited-to-be-joining-j-p-morgan-ai-research-as-an-intern-in-the-summer-of-2026-i-ll-be-working-with-the-optimization-amp-amp-decision-making-team",
+          title: 'Super excited to be joining J.P. Morgan AI Research as an intern in...',
           description: "",
           section: "News",},{
         id: 'social-email',
