@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 
-Invited speaker at Symposium on Probabilistic Machine Learning (ProbML) 2026, co-located with ICML 2026 in South Korea, on July 5, 2026. (Previously Symposium on Advances in Approximate Bayesian Inference)
+Invited speaker at [Symposium on Probabilistic Machine Learning](https://probml.cc/) (ProbML) 2026, co-located with ICML 2026 in South Korea, on July 5, 2026. (Previously Symposium on Advances in Approximate Bayesian Inference)
