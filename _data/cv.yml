@@ -93,7 +93,7 @@
   contents:
     - year: 2026
       description:
-       - "Invited speaker at ProbML 2026, co-located with ICML 2026, Seoul, South Korea."
+        - "Invited speaker at ProbML 2026, co-located with ICML 2026, Seoul, South Korea."
         - "Invited speaker in the session \"Calibrated Bayes: approximate inference, misspecified models, and their interaction\", ISBA World Meeting."
     - year: 2025
       description:
