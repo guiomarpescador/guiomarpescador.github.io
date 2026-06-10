@@ -41,6 +41,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: J.P. Morgan AI Research, London, UK
+      year: Summer 2026
+      description:
+        - Intern in the Optimization & Decision Making team.
     - title: Venture Fellow
       institution: Creator Fund, London, UK
       year: Oct 2023-2024
@@ -88,6 +93,7 @@
   contents:
     - year: 2026
       description:
+       - "Invited speaker at ProbML 2026, co-located with ICML 2026, Seoul, South Korea."
         - "Invited speaker in the session \"Calibrated Bayes: approximate inference, misspecified models, and their interaction\", ISBA World Meeting."
     - year: 2025
       description:
