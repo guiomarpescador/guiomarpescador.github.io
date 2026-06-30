@@ -57,11 +57,11 @@ show_page_title: false
 </div>
 
 <div style="text-align: center; margin-top: 20px; font-size: 1.1em;">
-  We argue that selecting inductive bias and model size are inextricably linked, and that automatic model selection procedures should solve both problems jointly.
+  We argue that selecting inductive bias and model size are inextricably linked, and that model selection procedures should solve both problems jointly.
 </div>
 
 <div style="text-align: center; margin-top: 30px;">
-  <img src="{{ '/assets/img/animated_batches.gif' | relative_url }}" alt="Model size and objective progression" style="max-width: 80%; border: 1px solid #ddd; border-radius: 10px; padding: 10px;">
+  <img src="{{ '/assets/img/training_overleaf_ls_0.65_all_frames.gif' | relative_url }}" alt="Model size and objective progression" style="max-width: 80%; border: 1px solid #ddd; border-radius: 10px; padding: 10px;">
   <p style="margin-top: 10px; font-size: 0.9em; color: #555;">
     Figure: Model predictions, ELBO, and neuron count evolve together during training, with growth and pruning as periodic structure is learned.
   </p>
